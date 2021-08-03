@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<mrta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<title>Document</title>
+</head>
+<body>
+<style>
+/* Core Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+  
+}
+
+.btn:hover {
+  background: #eaeaea;
+  color: #333;
+}
+.btn1 {
+  display: inline-block;
+  background: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+  border-radius: 25px;
+}
+
+.btn1:hover {
+  background: #333;
+  color: #eaeaea;
+  border-radius: 25px;
+}
+.btn3 {
+  display: inline-block;
+  background: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+  border-radius: 25px;
+}
+
+.btn3:hover {
+  background: #333;
+  color: #eaeaea;
+  border-radius: 25px;
+}
+
+/* Header Showcase */
+
+#showcase {
+  min-height: 450px;
+  color: #fff;
+  text-align: center;
+}
+
+#showcase .bg-image {
+  position: absolute;
+  background: #333
+    url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Section A */
+
+#section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+
+#section-b {
+  padding: 2em 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 1em;
+  background: #fff;
+  color: #333;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+/* Section C */
+
+#section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+/* Section D / Boxes */
+
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+
+#section-d .box:first-child {
+  background: #2690d4 url("https://scontent.fblr4-1.fna.fbcdn.net/v/t31.0-8/fr/cp0/e15/q65/20017873_1176020382497771_2758048208280461315_o.jpg?efg=eyJpIjoiYiJ9&oh=a3f07630979e616f55b250224b248733&oe=5AE5F2D2");
+  background-size:cover;
+  
+}
+
+/* Footer */
+
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
+
+#service2 a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+/* Media Queries */
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+  #section-a .content-text {
+    columns: 2;
+    column-gap: 2em;
+  }
+
+  #section-a .content-text p {
+    padding-top: 0;
+  }
+
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+    text-decoration: none;
+    text-color: white;
+  }
+
+  #section-b ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #section-b li {
+    width: 31%;
+  }
+}
+
+</style>
+<!-- Header Showcase -->
+<header id="showcase" class="grid">
+  <div class="bg-image"></div>
+  <div class="content-wrap">
+    <h1>Scorpion Informer Web Solutions</h1>
+    <p>
+
+</p>
+     <p><a href="index.html" class="btn">Back To Home</a>
+
+<!-- Main Area -->
+<main id="main">
+ <!-- Main Area -->
+<main id="main">
+<!-- Section A -->
+  <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title"> Sample Websites</h2>
+      <div class="content-text">
+        <p>
+<a href="https://nithingowda898.github.io/SLN-Home-Designs/" class="btn3">S.L.N Home Designs</a>
+<a href="https://scorpioninformer123.github.io/paralax/" class="btn3">Paralaxx</a>
+<a href="https://scorpioninformer123.github.io/Scorpion_informer/" class="btn3">Scorpion Informer</a>
+<a href="https://scorpioninformer123.github.io/google-assistant/" class="btn3"> Assistant</a>
+</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+ 
+    <div class="box">
+      <h2 class="content-title">Share  <i class="fa fa-share-alt"></i></h2>
+      <p><a href="#section-b" class="btn">Copy Link  <i class="fa fa-copy"></i></a>
+      <div id="nav3">
+		<div id="service2">
+			<h3><a href="https://nithingowda898.github.io/blog/"><a href="https://play.google.com/store/apps/details?id=com.facebook.katana"><i class="fa fa-facebook"></i></a></a>
+	<a href="https://play.google.com/store/apps/details?id=quick.browser.secure"><i class="fa fa-whatsapp"></i></a>
+    <a href="https://play.google.com/store/apps/details?id=quick.browser.secure"><i class="fa fa-instagram"></i></a>
+    <a href="https://play.google.com/store/apps/details?id=quick.browser.secure"><i class="fa fa-linkedin"></i></a>
+    <a href="https://play.google.com/store/apps/details?id=quick.browser.secure"><i class="fa fa-twitter"></i></a>
+    <a href="https://play.google.com/store/apps/details?id=quick.browser.secure"><i class="fa fa-google-plus"></i></a></h3>
+		</div></p>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer id="main-footer" class="grid">
+  <div>Scorpion Informer Web Solutions:</div>
+  <div>Project By:<a href="http://traversymedia.com" target="_blank">Nithin Gowda</a></div>
+</footer>
+</body>
+</html>
